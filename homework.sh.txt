@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Qovluq adını yazın"
+read homework
+
+mkdir $homework
+cd $homework
+
+touch $homework.cs
+
+echo "Fayl $homework.cs $homework qovluqunda yaradıldı"
